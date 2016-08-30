@@ -1,2 +1,2 @@
 # ASE-lab-assignments
-Re
+Repository for all the Advanced Software Engineering assignments.
