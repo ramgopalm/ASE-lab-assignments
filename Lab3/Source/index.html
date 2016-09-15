@@ -30,6 +30,7 @@
                 'onsuccess': onSuccess,
                 'onfailure': onFailure
             });
+        }
             function statusChangeCallback(response) {
                 console.log('statusChangeCallback');
                 console.log(response);
@@ -71,7 +72,7 @@
                     document.getElementById('status').innerHTML =
                             'Thanks for logging in, ' + response.name + '!';
                 });
-            }}
+            }
 
     </script>
 </head>
