@@ -1,9 +1,9 @@
-<ion-view view-title="Near by Restaurents">
+<ion-view view-title="Near by Restaurents" >
 
 <!-- <ion-content ng-controller="WaitCtrl"> </ion-content> -->
 
   <ion-content>
-    <ion-list>
+    <ion-list >
       <!-- <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/restaurants/{{restaurant.id}}"> -->
       <ion-item class="item-avatar item-icon-right item-label-right" ng-repeat="restaurant in restaurants" type="item-text-wrap" href="#/tab/restaurants/{{restaurant.place_id}}">
         <img ng-src="{{restaurant.icon}}">

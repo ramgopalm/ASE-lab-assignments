@@ -21,7 +21,7 @@ angular.module('starter.controllers', [])
                 title: "My Location"
             });
         });
-       console.log("this is positio");
+       console.log("this is position");
         $scope.map = map;
 
 
@@ -71,7 +71,7 @@ angular.module('starter.controllers', [])
       var service;
       var infowindow;
 
-      //Slalom ATL location: 33.85, -84.35
+
       //PlaceService.nearBySearch
       var currLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
       map = new google.maps.Map(document.getElementById('map'));
