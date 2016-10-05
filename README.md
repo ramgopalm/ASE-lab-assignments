@@ -6,3 +6,7 @@ Lab assignment 2 --> https://github.com/ramgopalm/ASE-lab-assignments/wiki/ASE-L
 Lab assignment 3 --> https://github.com/ramgopalm/ASE-lab-assignments/wiki/ASE-lab-assignment-3
 
 Lab assignment 4 --> https://github.com/ramgopalm/ASE-lab-assignments/wiki/ASE-lab-assignment-4
+
+Lab assignment 5 --> https://github.com/ramgopalm/ASE-lab-assignments/wiki/ASE-lab-assignment-5
+
+Lab assignment 6 --> https://github.com/ramgopalm/ASE-lab-assignments/wiki/ASE-lab-assignment-6
