@@ -12,3 +12,5 @@ Lab assignment 5 --> https://github.com/ramgopalm/ASE-lab-assignments/wiki/ASE-l
 Lab assignment 6 --> https://github.com/ramgopalm/ASE-lab-assignments/wiki/ASE-lab-assignment-6
 
 Lab assignment 7 --> https://github.com/ramgopalm/ASE-lab-assignments/wiki/ASE-lab-assignment-7
+
+Lab assignment 8 --> https://github.com/ramgopalm/ASE-lab-assignments/wiki/ASE-lab-assignment-8
