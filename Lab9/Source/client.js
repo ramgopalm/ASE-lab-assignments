@@ -1,6 +1,3 @@
-/**
- * Created by Marmik on 04/10/2016.
- */
 var http = require('http');
 
 // Options to be used by request
