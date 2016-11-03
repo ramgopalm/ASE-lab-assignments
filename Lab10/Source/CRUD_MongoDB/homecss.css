@@ -1,0 +1,62 @@
+.h1{
+    background-image: url("4.jpg");
+    background-size: cover;
+    color: lemonchiffon;
+    font-family: "Comic Sans MS";
+    font-size: large;
+}
+.g1{
+
+    color: black;
+    margin-left: 350px;
+    margin-right: 10px;
+}
+.h5{
+    margin-left: 200px;
+    color:black;
+}
+.i1{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.textbox2{
+    border-style: solid;
+    border-color: orange;
+    font-size:13pt;
+    height:20px;
+    width:300px;
+}
+.textbox1{
+    border-style: solid;
+    border-color: orange;
+    font-size:13pt;
+    height:20px;
+    width:300px;
+}
+.fl {
+    width: 700px;
+    background-color: #ffcc33;
+    margin: auto;
+}
+.fl1{
+
+    color:black;
+    width: 200px;
+    float: left;
+    height: 200px;
+}
+.fl2{
+
+    color:black;
+    width: 200px;
+    float: right;
+    height: 200px;
+}

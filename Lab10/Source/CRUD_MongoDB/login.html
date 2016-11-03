@@ -1,0 +1,84 @@
+<html ng-app="demoMongo" ng-controller="MongoRestController" class="h1">
+<head >
+    <title>Login</title>
+    <script>
+        function validataionn() {
+            var j=0;
+
+            var xmlhttp = new XMLHttpRequest();
+            var url = "https://api.mongolab.com/api/1/databases/firstdb/collections/Users?apiKey=cv-INXkZDmTZy3pCX4NFTNhe3wjSfL_h";
+
+            xmlhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    myFunction(this.responseText);
+                }
+            }
+            xmlhttp.open("GET", url, true);
+            xmlhttp.send();
+
+            function myFunction(response) {
+                var arr = JSON.parse(response);
+                var i;
+                var emailid = document.getElementById("form-username").value;
+                var pwd = document.getElementById("form-password").value;
+                var arr1 = JSON.parse(response);
+                for (i = 0; i < arr1.length; i++) {
+                    givenemail = arr[i].fname;
+                    givenpwd = arr[i].password;
+                    if (emailid == givenemail && pwd == givenpwd) {
+
+                        window.alert("login success");
+                        form.focus();
+                        j=1;
+
+
+                    }
+                    else {
+
+                        window.alert("Wrong credentials.login failed");
+                        form.focus();
+                        j=0;
+                    }
+                }
+            }
+
+            if (j==1){return true;}
+            else {return false;}
+        }
+    </script>
+</head>
+<body>
+<div class="b1" align="center">
+<form method="post" action="http://127.0.0.1:8081/login" onsubmit="return validataionn()">
+
+    <h1>Login</h1>
+    <table class="center">
+        <tr>
+            <td>Email Id:</td>
+            <td><input type="text" name="username" id="form-username"/></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password" name="password" id="form-password"/></td>
+        </tr>
+    </table>
+    <input type="submit" class="button" value="Submit"/>
+    <div align="center">
+        <input type="submit" value="Login" class="button" onclick="go()"/>
+        <script>
+            function go() {
+                window.location='index.html';
+            }
+        </script>
+    </div>
+
+</form>
+</div>
+
+<script type="text/javascript" src="http://code.angularjs.org/1.1.1/angular.js"></script>
+<script type="text/javascript" src="http://code.angularjs.org/1.1.1/angular-resource.js"></script>
+<script type="text/javascript" src="http://code.angularjs.org/1.1.1/angular-sanitize.js"></script>
+<script src="app.js"></script>
+<link rel="stylesheet" href="registercss.css" type="text/css">
+</body>
+</html>
